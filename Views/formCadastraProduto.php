@@ -85,7 +85,7 @@
                 valorUnitario: $("#valorUnitario").val(),
             },
             success: function(result) {
-                $("#msg").html("<br><div class='alert alert-success'><strong>Produto cadastrado com sucesso !</strong></div>");
+                $("#msg").html(result);
             },
             error: function(result) {
                 $("#msg").hide();
